@@ -112,8 +112,8 @@ p {
   p {
     text-align: center !important;
   }
-  a .email-link {
-    font-size: 28px !important;
+  .email-link {
+    font-size: 22px;
   }
   .vishgorod-image-about-page {
     margin-top: 15px;
@@ -123,5 +123,9 @@ p {
     font-size: 15px;
     text-align: center;
     padding: 15px 10px;
+    margin: 0 auto;
+  }
+  .navigation-links {
+    margin: 0;
   }
 }
