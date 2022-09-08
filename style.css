@@ -98,3 +98,30 @@ p {
 .bg-color {
   background-color: var(--secondary-color);
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    text-align: center !important;
+  }
+  a .email-link {
+    font-size: 28px !important;
+  }
+  .vishgorod-image-about-page {
+    margin-top: 15px;
+  }
+  .contact-me-link,
+  .about-me-link {
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 10px;
+  }
+}
